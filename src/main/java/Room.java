@@ -1,12 +1,16 @@
 import java.util.ArrayList;
 
 public class Room {
-    private ArrayList<Wall> walls;
+    private Wall[] walls;
 
-    public ArrayList<Wall> getWalls() {
+    public Wall[] getWalls() {
         return walls;
     }
-    public void setWalls(ArrayList<Wall> walls) {
+    public void setWalls(Wall[] walls) {
         this.walls = walls;
+    }
+
+    public Room(int wallCount){
+        walls = new Wall[wallCount];
     }
 }
