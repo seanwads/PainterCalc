@@ -29,7 +29,7 @@ public class Main {
         isValid = false;
 
         while(!isValid){
-            
+            //do something
         }
 
     }
